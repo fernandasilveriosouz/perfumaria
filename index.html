@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERFUMARIA LOJA</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+    <!--CABECALHO-->
+    <header>
+        <h1>ESSENCE</h1>
+        <p>fraganâncias que contam historias</p>
+    </header>
+    <nav>
+       <a href="#">inicio</a>
+       <a href="#">produtos</a>
+       <a href="#">sobre</a>
+       <a href="#">contato</a>
+    </nav>
+
+    <!--CONTEUDO PRINCIPAL-->
+    <main>
+        <h2>Nossos destaques</h2>
+        <section>
+            <!--PRODUTO 1-->
+            <article>
+                <ing src="">
+                    <h3>Rose noir</h3>
+                    <p>Uma fragancia <strong>intensa</strong> com notas de rosa, âmb
+                        <p class="preço">R$ 189,90</p>
+                        <button>Comprar</button>
+            </article>
+             <article>
+                    <h3>aurora eclipse</h3>
+                    <p>Uma fragancia <strong>intensa</strong> com notas de rosa, âmb
+                        <p class="preço">R$ 169,80</p>
+                        <button>Comprar</button>
+            </article>
+             <article>
+                    <h3>velvet steel</h3>
+                    <p>Uma fragancia <strong>intensa</strong> com notas de rosa, âmb
+                        <p class="preço">R$ 178,00</p>
+                        <button>Comprar</button>
+                </ing>
+            </article>
+        </section>
+    </main>
+
+    <hr>
+    <aside>
+        <h3>receba nossas novidades</h3>
+        <form>
+            <iabel for="nome">Seu nome:</iabel>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <iabel for="email">Seu email:</iabel>
+            <input type="text" id="email" placeholder="Digite seu email">
+
+            <iabel for="preferencia">tipo de fragrancia preferida:</iabel>
+            <select id="preferencia">
+                <option>floral</option>
+                <option>amadeirado</option>
+                <option>aquatico</option>
+                <option>oriental</option>
+            </select>
+            <iabel for="mensagem">Mensagemm (opcional):</iabel>
+            <textarea id="mensagem" placeholder="escreva aqui.."></textarea>
+
+            <button type="submit">cadastrar</button>
+
+
+
+        </form>
+    </aside>
     
 </body>
 </html>
